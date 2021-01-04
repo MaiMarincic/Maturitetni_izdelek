@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/mushrooms.obj-d8285f93dfd78782757692fa61bbbf80.mesh"
+
+[deps]
+
+files=[ "res://.import/mushrooms.obj-d8285f93dfd78782757692fa61bbbf80.mesh" ]
+
+source_file="res://3D/OBJ format/mushrooms.obj"
+dest_files=[ "res://.import/mushrooms.obj-d8285f93dfd78782757692fa61bbbf80.mesh", "res://.import/mushrooms.obj-d8285f93dfd78782757692fa61bbbf80.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

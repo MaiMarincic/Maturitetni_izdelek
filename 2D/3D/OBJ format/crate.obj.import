@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crate.obj-f1194026171d5d1ea3db658f2faec36b.mesh"
+
+[deps]
+
+files=[ "res://.import/crate.obj-f1194026171d5d1ea3db658f2faec36b.mesh" ]
+
+source_file="res://3D/OBJ format/crate.obj"
+dest_files=[ "res://.import/crate.obj-f1194026171d5d1ea3db658f2faec36b.mesh", "res://.import/crate.obj-f1194026171d5d1ea3db658f2faec36b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

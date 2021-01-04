@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockHalf.obj-b8dd513ce5018311e0d4eb2c3145dcdf.mesh"
+
+[deps]
+
+files=[ "res://.import/blockHalf.obj-b8dd513ce5018311e0d4eb2c3145dcdf.mesh" ]
+
+source_file="res://3D/OBJ format/blockHalf.obj"
+dest_files=[ "res://.import/blockHalf.obj-b8dd513ce5018311e0d4eb2c3145dcdf.mesh", "res://.import/blockHalf.obj-b8dd513ce5018311e0d4eb2c3145dcdf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

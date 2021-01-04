@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockSnowEnd.obj-cb22c4355837e24cd7ad471292f4282e.mesh"
+
+[deps]
+
+files=[ "res://.import/blockSnowEnd.obj-cb22c4355837e24cd7ad471292f4282e.mesh" ]
+
+source_file="res://3D/OBJ format/blockSnowEnd.obj"
+dest_files=[ "res://.import/blockSnowEnd.obj-cb22c4355837e24cd7ad471292f4282e.mesh", "res://.import/blockSnowEnd.obj-cb22c4355837e24cd7ad471292f4282e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

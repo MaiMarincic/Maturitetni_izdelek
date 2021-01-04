@@ -1,0 +1,84 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Enemy.gd" type="Script" id=1]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (1).png" type="Texture" id=2]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (2).png" type="Texture" id=3]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (3).png" type="Texture" id=4]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (4).png" type="Texture" id=5]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (5).png" type="Texture" id=6]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (6).png" type="Texture" id=7]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (7).png" type="Texture" id=8]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (8).png" type="Texture" id=9]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (9).png" type="Texture" id=10]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (10).png" type="Texture" id=11]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (11).png" type="Texture" id=12]
+[ext_resource path="res://Tmp_Sprites/Enemy/run (12).png" type="Texture" id=13]
+[ext_resource path="res://Enemy Area.gd" type="Script" id=14]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "New Anim",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "Run",
+"speed": 15.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 44.2897, 40.9926 )
+
+[node name="Enemy" type="KinematicBody2D"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+position = Vector2( 2.20322, 8.99353 )
+scale = Vector2( 3.81937, 4.96518 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="AnimatedSprite" parent="." index="1"]
+
+frames = SubResource( 2 )
+animation = "Run"
+frame = 2
+
+[node name="Enemy Area" type="Area2D" parent="." index="2"]
+
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 14 )
+next_world = null
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy Area" index="0"]
+
+position = Vector2( 2.02076, 8.37009 )
+scale = Vector2( 0.927816, 1.25601 )
+shape = SubResource( 3 )
+
+

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ladder.obj-9ac37a7406f0eafaa3a1adbccebba3d1.mesh"
+
+[deps]
+
+files=[ "res://.import/ladder.obj-9ac37a7406f0eafaa3a1adbccebba3d1.mesh" ]
+
+source_file="res://3D/OBJ format/ladder.obj"
+dest_files=[ "res://.import/ladder.obj-9ac37a7406f0eafaa3a1adbccebba3d1.mesh", "res://.import/ladder.obj-9ac37a7406f0eafaa3a1adbccebba3d1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

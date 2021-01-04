@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockSnowSlope.obj-8b33b590fb4a6642275dab20b62842d9.mesh"
+
+[deps]
+
+files=[ "res://.import/blockSnowSlope.obj-8b33b590fb4a6642275dab20b62842d9.mesh" ]
+
+source_file="res://3D/OBJ format/blockSnowSlope.obj"
+dest_files=[ "res://.import/blockSnowSlope.obj-8b33b590fb4a6642275dab20b62842d9.mesh", "res://.import/blockSnowSlope.obj-8b33b590fb4a6642275dab20b62842d9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

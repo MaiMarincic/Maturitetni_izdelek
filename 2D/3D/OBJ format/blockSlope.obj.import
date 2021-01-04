@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockSlope.obj-1781b8057930142586bcce90b11d3996.mesh"
+
+[deps]
+
+files=[ "res://.import/blockSlope.obj-1781b8057930142586bcce90b11d3996.mesh" ]
+
+source_file="res://3D/OBJ format/blockSlope.obj"
+dest_files=[ "res://.import/blockSlope.obj-1781b8057930142586bcce90b11d3996.mesh", "res://.import/blockSlope.obj-1781b8057930142586bcce90b11d3996.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

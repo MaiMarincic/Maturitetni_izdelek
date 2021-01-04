@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/spikesLarge.obj-c3e7146efb6fc18b1510920db29ac2bc.mesh"
+
+[deps]
+
+files=[ "res://.import/spikesLarge.obj-c3e7146efb6fc18b1510920db29ac2bc.mesh" ]
+
+source_file="res://3D/OBJ format/spikesLarge.obj"
+dest_files=[ "res://.import/spikesLarge.obj-c3e7146efb6fc18b1510920db29ac2bc.mesh", "res://.import/spikesLarge.obj-c3e7146efb6fc18b1510920db29ac2bc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
